@@ -39,8 +39,6 @@ import org.nuxeo.ecm.platform.ec.notification.SubscriptionAdapter;
 @Setup(mode = SINGLETON, priority = REFERENCE)
 public class UserNotificationEnricher extends AbstractJsonEnricher<NuxeoPrincipal> {
 
-    private static final Log log = LogFactory.getLog(UserNotificationEnricher.class);
-
     public static final String NAME = "usernotif";
 
     public UserNotificationEnricher() {
