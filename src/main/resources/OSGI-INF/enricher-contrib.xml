@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.sample.enricher" version="1.0.0">
+  <extension target="org.nuxeo.ecm.core.io.MarshallerRegistry" point="marshallers">
+    <!-- user profile enricher -->
+    <register class="org.nuxeo.UserNotificationEnricher" enable="true" />
+  </extension>
+</component>

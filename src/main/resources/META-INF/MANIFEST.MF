@@ -1,0 +1,9 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.nuxeo
+Bundle-Version: 1.0.0
+Bundle-Name: sample-user-enricher-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.nuxeo.sample-user-enricher-core;singleton=true
+Nuxeo-Component: OSGI-INF/enricher-contrib.xml
